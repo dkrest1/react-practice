@@ -5,6 +5,7 @@ function App() {
   const [colour, setColour] = useState("");
   const [hexColour, setHexColour] = useState("");
   const [isDark, setIsDark] = useState(true);
+
   return (
     <div className="App">
       <h1 className="header">CSS Color Box</h1>

@@ -1,4 +1,4 @@
-const Button = ({ buttonText, ReqType, setReqType }) => {
+const Button = ({ buttonText, setReqType }) => {
   return (
     <button type="button" onClick={() => setReqType(buttonText)}>
       {buttonText}

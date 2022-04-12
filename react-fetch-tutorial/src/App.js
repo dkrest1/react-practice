@@ -1,6 +1,6 @@
+import { useState, useEffect } from "react";
 import Form from "./Form";
 import Table from "./Table";
-import { useState, useEffect } from "react";
 function App() {
   const API_URL = "https://jsonplaceholder.typicode.com/";
   const [reqType, setReqType] = useState("users");

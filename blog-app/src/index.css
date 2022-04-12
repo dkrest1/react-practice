@@ -138,6 +138,12 @@ body {
   background-color: #fff;
 }
 
+.About img {
+  height: 15rem;
+  width: 15rem;
+  display: block;
+}
+
 .post {
   margin-top: 1rem;
   padding-bottom: 1rem;
